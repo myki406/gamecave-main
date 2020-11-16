@@ -1,3 +1,7 @@
+/* ------------- */
+/* GENERAL STYLE */
+/* ------------- */
+
 * {
   box-sizing: border-box;
 }
@@ -34,6 +38,10 @@ hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+/* ------------ */
+/* HEADER STYLE */
+/* ------------ */
 
 .imglogo {
   margin-top: 1rem;
@@ -87,7 +95,9 @@ hr {
   margin-right: auto;
 }
 
+/* ------------------ */
 /* ritmusjatekok resz */
+/* ------------------ */
 
 .bal, .jobb{
   width: 70%;
@@ -160,7 +170,9 @@ hr {
   }
 }
 
+/* ------- */
 /* galeria */
+/* ------- */
 
 .galerycenter {
   margin-top: 2rem;
@@ -193,7 +205,10 @@ hr {
   }
 }
 
+/* -------------- */
 /* kapcsolat rész */
+/* -------------- */
+
 .kapcsolat {
   width: 70%;
   margin-left: auto;
@@ -249,6 +264,10 @@ hr {
   .contactflexbox > .kapcsolat { order: 1;}
   .contactflexbox > .kapcsolatlistacenter { order: 2;}
 }
+
+/* ------ */
+/* Footer */
+/* ------ */
 
 footer {
   width: 100%;
