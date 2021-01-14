@@ -31,10 +31,11 @@ hr {border: none; border-radius: 30%; height: 2px; width: 40%; background-color:
 /* ritmusjatekok resz */
 /* ------------------ */
 
+.ritmusleiras, .h2 {margin-left: -3vw;}
 .bal, .jobb{width: 70%; margin-left: auto; margin-right: auto;}
 .jobb {margin-bottom: 1rem;}
 .ritmusleiras, .h2 {margin-top: -1rem;}
-.ritmusleiras ul {text-align: center;}
+.ritmusleiras ul {text-align: center; width: 200%; margin-left: -24vw;}
 .ritmuskepek {width:100%; height:0px; padding-bottom: 125%; overflow:hidden; position:relative;}
 .ritmuskepek img{height: auto; width: 100%; margin: auto; right: 0; left: 0; top: 0; z-index: 0; position: absolute; animation: ritmuskepek 30s infinite;
   opacity:0;}
@@ -52,6 +53,8 @@ hr {border: none; border-radius: 30%; height: 2px; width: 40%; background-color:
 .section1 > .bal { order: 2; }
 
 @media screen and (min-width: 800px) {
+  .ritmusleiras, .h2 {margin-left: 0;}
+  .ritmusleiras ul {text-align: center; width: 100%; margin-left: 0;}
   .section1 {text-align: center; display: block;}
   .bal {display: inline-block; width: 40%; height: auto;}
   .jobb {margin-bottom: 0; display: inline-block; width: 40%;}
