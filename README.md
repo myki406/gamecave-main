@@ -1,3 +1,3 @@
 # gamecave-main
  GameCave website template
-http://gamecavebp.eu/
+http://gamecavebp.hu
