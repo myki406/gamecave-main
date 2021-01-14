@@ -59,6 +59,35 @@ hr {border: none; border-radius: 30%; height: 2px; width: 40%; background-color:
   .ritmusleiras h2 {margin-top: 3px;}
   }
 
+/* ------------------- */
+/* fighterjatekok resz */
+/* ------------------- */
+
+.bal2, .jobb2{width: 70%; margin-left: auto; margin-right: auto;}
+.jobb2 {margin-bottom: 1rem;}
+.fightleiras, .h2 {margin-top: -1rem;}
+.fightleiras ul {text-align: center;}
+.verekedoskepek {width:100%; height:0px; padding-bottom: 125%; overflow:hidden; position:relative;}
+.verekedoskepek img{height: auto; width: 100%; margin: auto; right: 0; left: 0; top: 0; z-index: 0; position: absolute; animation: verekedoskepek 15s infinite;
+  opacity:0;}
+
+@keyframes verekedoskepek {25%{opacity:1;} 40%{opacity:0;}}
+.verekedoskepek img:nth-child(3){animation-delay:0s;}
+.verekedoskepek img:nth-child(2){animation-delay:5s;}
+.verekedoskepek img:nth-child(1){animation-delay:10s;}
+
+.section2 {display: flex; flex-direction: column; width: 70%; margin-left: auto; margin-right: auto;}
+.section2 > .jobb2 { order: 1; }
+.section2 > .bal2 { order: 2; }
+
+@media screen and (min-width: 800px) {
+  .section2 {text-align: center; display: block;}
+  .bal2 {display: inline-block; width: 40%; height: auto;}
+  .jobb2 {margin-bottom: 0; display: inline-block; width: 40%;}
+  .fightleiras {width:100%; height:0px; padding-bottom: 125%; overflow:hidden; position:relative;}
+  .fightleiras h2 {margin-top: 3px;}
+  }
+
 /* ------- */
 /* galeria */
 /* ------- */
