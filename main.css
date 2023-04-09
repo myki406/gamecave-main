@@ -3,7 +3,7 @@
 /* ------------- */
 
 * {box-sizing: border-box;}
-body {color: white; background: black;}
+body {color: white; background: black; font-family: sans-serif;}
 h1, h2, h3, p {line-height: 1.35rem; letter-spacing: 0.02rem;}
 h2 {font-size: 2rem; text-align: center; margin: 1rem;}
 p {width: 70%; text-align: center; margin-left: auto; margin-right: auto;}
